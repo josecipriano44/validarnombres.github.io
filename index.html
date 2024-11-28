@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detección de Nombres Propios</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Detección de Nombres Propios</h1>
+    <p>Ingresa un texto y detecta automáticamente las palabras que comienzan con mayúscula:</p>
+    <textarea id="textoInput" placeholder="Escribe un texto aquí..." rows="6"></textarea>
+    <button onclick="detectarNombres()">Detectar Nombres</button>
+    <div id="resultados">
+      <h2>Resultados:</h2>
+      <p id="message"></p>
+      <ul id="nombresList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

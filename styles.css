@@ -1,0 +1,103 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #4CAF50;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    color: #666;
+    font-size: 1.1rem;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+  }
+  
+  #resultados {
+    margin-top: 2rem;
+    text-align: left;
+    display: none;
+  }
+  
+  #resultados h2 {
+    color: #4CAF50;
+  }
+  
+  #nombresList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #nombresList li {
+    background-color: #e9f7e5;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    color: #4CAF50;
+  }
+  
+  #message {
+    font-size: 1.1rem;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  #message.error {
+    color: #f44336;
+  }
+  
